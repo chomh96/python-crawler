@@ -45,7 +45,7 @@ def Log(text):
 
 
 # 웹드라이버 실행 경로 chromedriver는 폴더가 아니라 파일명입니다.
-driver = webdriver.Chrome('C:\Python\Techtree\chromedriver')
+driver = webdriver.Chrome(config.DRIVIER)
 
 # Instagram 이동
 driver.get('https://www.instagram.com/')
